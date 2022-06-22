@@ -1,7 +1,7 @@
-# Drone Vision Project
+# Drone Facial Recognition
 
 This code is to get started with the application of computer vision for the Tello drone.  It contains:
-
+![img_1.png](img_1.png)
  * `findFace`
     * Function to detect forwards facing person using the Haar feature-based cascade classifier.
  * `trackFace`
@@ -19,3 +19,6 @@ The implementation **must** meet the following requirements:
     * For the control scheme it needs to update fast while having little to no error and overshoot. As a result the values chosen are **0.8** and **0.5** respectively for the proportional and integral component of the controller.
     * Below is the Root Locus diagram of the implemented PI control scheme for the drone. 
     * ![img.png](img.png)
+ 
+ * **Functional Demo**
+   ![](AhadDemo.gif)
